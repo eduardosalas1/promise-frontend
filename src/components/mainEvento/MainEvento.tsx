@@ -9,8 +9,8 @@ const MainEvento = () => {
         <div className={styles.mainContent}>
           <h3>* HALLAZGOS CONSTANTES</h3>
           <h2>
-            "Apoyando a madres y<br /> niños, construyendo
-            <br /> su futuro."
+            &quot;Apoyando a madres y<br /> niños, construyendo
+            <br /> su futuro.&quot;
           </h2>
           <p>
             Conoce los estudios que están marcando <br />

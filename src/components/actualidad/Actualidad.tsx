@@ -10,10 +10,10 @@ const Actualidad = () => {
         </h4>
         <h2>Actualidad PrOMIS</h2>
         <p>
-          "A lo largo de tres etapas de seguimiento, PrOMIS ha recopilado
+          &quot;A lo largo de tres etapas de seguimiento, PrOMIS ha recopilado
           información valiosa sobre cómo el entorno materno influye en el
           desarrollo infantil. Conoce los avances de cada fase y las
-          contribuciones clave de nuestros colaboradores."
+          contribuciones clave de nuestros colaboradores.&quot;
         </p>
         <button>Ver avances</button>
       </div>

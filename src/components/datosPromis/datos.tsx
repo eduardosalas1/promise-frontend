@@ -26,7 +26,7 @@ const Datos = () => {
               <p>madres</p>
             </div>
             <div className={styles.cuadroRosado}>
-              <h2>"50</h2>
+              <h2>&quot;50</h2>
               <p>estudios</p>
               <p>publicados</p>
             </div>

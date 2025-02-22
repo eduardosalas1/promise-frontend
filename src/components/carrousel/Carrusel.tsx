@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import styles from "./styles.css/carrusel.module.css";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const institutions = [
   { src: "/msh-logo.png", alt: "MGH" },

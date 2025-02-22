@@ -14,8 +14,8 @@ export default function Home() {
       <div className={styles.publicaciones}>
         <p className={styles.publicacionesTitulo}>+ QUIÉNES SOMOS?</p>
         <h2>
-          "Estudio pionero sobre el impacto del entorno <br /> materno en el
-          desarrollo infantil en Perú".
+          &quot;Estudio pionero sobre el impacto del entorno <br /> materno en
+          el desarrollo infantil en Perú&quot;.
         </h2>
       </div>
       <Opciones />
@@ -28,8 +28,8 @@ export default function Home() {
       <div className={styles.publicaciones}>
         <p className={styles.publicacionesTitulo}>+ PUBLICACIONES</p>
         <h2>
-          "Apoyando a madres y niños,
-          <br /> construyendo su futuro."
+          &quot;Apoyando a madres y niños,
+          <br /> construyendo su futuro.&quot;
         </h2>
         <Publicaciones />
       </div>
