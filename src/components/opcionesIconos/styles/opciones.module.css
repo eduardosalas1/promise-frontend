@@ -1,0 +1,47 @@
+.agrupacion {
+  margin-top: 80px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.IconoFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.IconoFooter button {
+  background-color: #4192ef;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  width: 70%;
+}
+.iconoTitulo {
+  font-size: 30px;
+}
+
+.iconoImagenDesarrollo {
+  width: 57.5px;
+}
+
+.iconoImagenInnovacion {
+  width: 78px;
+}
+
+.iconoImagen {
+  width: 100px;
+}

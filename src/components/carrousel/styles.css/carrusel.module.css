@@ -1,0 +1,73 @@
+.carousel {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  margin: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  gap: 30px;
+}
+
+.title {
+  font-size: 36px;
+  color: #545454;
+  margin-bottom: 30px;
+}
+
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+
+.imageContainer {
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.animated {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.animated:hover {
+  transform: translateX(-10px);
+}
+
+.moving {
+  transform: translateX(-100px); /* Ajusta la distancia del movimiento */
+}
+
+.imageMGH {
+  width: auto;
+  height: 70px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imageMaterno {
+  width: auto;
+  height: 90px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image {
+  width: auto;
+  height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animated:active {
+  transform: translateX(-30px);
+}
+
+/* Flechas de navegación */
+.arrow {
+  cursor: pointer;
+  width: 20px;
+  height: 30px;
+}

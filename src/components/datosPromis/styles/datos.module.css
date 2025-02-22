@@ -1,0 +1,90 @@
+.lowpage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.datosContent {
+  padding: 100px 270px;
+  margin-bottom: 40px;
+}
+
+.datosContent h2 {
+  font-size: 40px;
+  color: #545454;
+  font-weight: 650;
+}
+
+.datostitulo {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #4192ef;
+  margin-bottom: 35px;
+}
+
+.datosBody {
+  display: flex;
+  gap: 50px;
+}
+
+.datosCuadros {
+  color: #f2f2f2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  gap: 10px;
+}
+.datosCuadros h2 {
+  color: #f2f2f2;
+  font-size: 60px;
+}
+
+.datosCuadros p {
+  font-weight: 600;
+}
+
+.cuadroAzul {
+  background-color: #4192ef;
+  padding: 20px;
+  display: flex;
+  color: #f2f2f2;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cuadroAzul p {
+  text-align: left;
+  line-height: 1;
+  margin-top: 11px;
+}
+
+.lowCuadros {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.cuadroAmarillo {
+  background-color: #f2c94c;
+  padding: 20px;
+  justify-content: center;
+  width: 50%;
+}
+
+.cuadroRosado {
+  background-color: #ffb6e8;
+  padding: 20px;
+  padding-left: 12%;
+  text-align: left;
+  width: 50%;
+}
+
+.cuadroRosado p {
+  margin-left: 27px;
+  line-height: 1;
+}

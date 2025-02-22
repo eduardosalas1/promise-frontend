@@ -1,0 +1,41 @@
+.mainEvento {
+  width: 100%;
+  height: 100%;
+  background-color: #f2c94c;
+  padding: 100px 200px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.mainContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mainContent h3 {
+  font-size: 25px;
+  letter-spacing: 2;
+}
+
+.mainContent h2 {
+  font-size: 48px;
+}
+
+.mainContent button {
+  background-color: #4192ef;
+  color: #fff;
+  padding: 12px 15px;
+  border: none;
+  font-weight: bold;
+  width: 30%;
+}
+
+.cuadro {
+  width: 50%;
+  height: 500px;
+}

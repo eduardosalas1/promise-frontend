@@ -1,0 +1,70 @@
+.publicaciones {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.cuadro {
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 300px;
+  padding: 40px;
+  gap: 20px;
+  position: relative;
+}
+
+.cuadro h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.cuadro p {
+  font-size: 12px;
+  text-wrap: wrap;
+  line-height: 2;
+}
+
+.cuadro button {
+  background-color: #f2f2f2;
+  color: #a4a4a4;
+  border: none;
+  padding: 11px 10px;
+  font-size: 12.1px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 35%;
+  position: absolute;
+  bottom: 30px;
+  z-index: 2;
+}
+
+.cuadro1 {
+  background-image: url("/cover_contactanos.jpg");
+  background-size: cover;
+  background-position: -80px;
+}
+
+.cuadro2 {
+  background-image: url("/bebe_lactando.jpg");
+  background-size: cover;
+  background-position: -70px;
+}
+
+.cuadro3 {
+  background-image: url("/madre_hijo.jpg");
+  background-size: cover;
+  background-position: -77px;
+}
+
+.cuadro1,
+.cuadro2,
+.cuadro3 {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+}

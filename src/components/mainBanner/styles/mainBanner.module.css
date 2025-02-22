@@ -1,0 +1,46 @@
+.main {
+  margin: 100px 0px;
+  padding: 150px 100px 0px 100px;
+  width: 100%;
+  height: 680px;
+  background-image: url("/madre_viendo_hijo.jpg");
+  background-size: cover;
+  background-position: 0px -200px;
+  color: #ffffff;
+}
+
+.main {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main h2 {
+  font-size: 60px;
+}
+
+.main button {
+  background-color: #4192ef;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  font-weight: lighter;
+  width: 20%;
+}
+
+.mainComponente {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mainFooter {
+  display: flex;
+  gap: 10px;
+  margin-top: 150px;
+}
+
+.line {
+  width: 60%;
+  height: 15px;
+  border-bottom: 1px #ffffff solid;
+}

@@ -1,0 +1,62 @@
+.all {
+  width: 100%;
+}
+
+.contactanos {
+  width: 100%;
+  height: 450px;
+  background-color: #ffb6e8;
+  display: flex;
+  color: black;
+  gap: 0px;
+  text-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.contactanosBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  padding: 0 80px;
+}
+
+.contactanos h4 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.contactanos h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.contactanos h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contactanos p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.contacto {
+  display: flex;
+  gap: 12px;
+}
+
+.line {
+  margin-top: 15px;
+  width: 53%;
+  height: 1px;
+  background-color: black;
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}

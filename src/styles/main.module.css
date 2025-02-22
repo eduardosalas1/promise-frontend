@@ -1,0 +1,36 @@
+.carrusel {
+  width: 100%;
+  height: 360px;
+  background-color: #f2f2f2;
+  margin-bottom: 70px;
+}
+
+.lowpage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.publicaciones {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publicaciones h2 {
+  font-size: 40px;
+  color: #545454;
+  font-weight: 650;
+  text-align: center;
+}
+
+.publicacionesTitulo {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #4192ef;
+  margin-bottom: 35px;
+}
