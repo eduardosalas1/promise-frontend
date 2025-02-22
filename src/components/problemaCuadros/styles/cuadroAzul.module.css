@@ -1,0 +1,14 @@
+.cuadro {
+  background-color: #4192ef;
+  color: #ffffff;
+  text-wrap: wrap;
+  width: 31%;
+  padding: 50px 50px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.cuadro h3 {
+  font-size: 30px;
+}

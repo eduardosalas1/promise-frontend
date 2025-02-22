@@ -1,0 +1,33 @@
+.entorno {
+  width: 80%;
+  height: 550px;
+  margin: auto;
+  background-color: #ffb6e8;
+  color: #000000;
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.entornoTitulo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.PrecaucionContainer {
+  margin-top: 50px;
+  display: flex;
+  gap: 70px;
+}
+
+.entornoTitulo h3 {
+  letter-spacing: 2;
+  font-size: 20px;
+}
+
+.entornoTitulo h2 {
+  font-size: 40px;
+}

@@ -1,0 +1,24 @@
+.tituloPrecaucion {
+  display: flex;
+  gap: 10px;
+}
+
+.tituloPrecaucion h4 {
+  font-size: 20px;
+}
+
+.precaucion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.precaucion p {
+  color: #545454;
+  margin-left: 29px;
+  font-size: 16px;
+}
+
+.imagen {
+  width: 20px;
+}

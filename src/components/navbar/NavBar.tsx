@@ -12,7 +12,7 @@ const NavBar = () => {
       </div>
       <ul>
         <a href="./">Inicio</a>
-        <a href="#">Acerca de PrOMIS</a>
+        <a href="./acerca">Acerca de PrOMIS</a>
         <a href="#">Investigadores e Instituciones</a>
         <a href="./publicaciones">Hallazgos</a>
         <a href="./contacto">Contacto</a>

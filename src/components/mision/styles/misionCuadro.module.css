@@ -1,0 +1,28 @@
+.content {
+  width: 35%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  text-align: left;
+}
+
+.content h4 {
+  font-size: 20px;
+  letter-spacing: 1;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.yellow {
+  color: #f2c94c;
+}
+
+.pink {
+  color: #ffb6e8;
+}
+
+.content p {
+  font-weight: lighter;
+}

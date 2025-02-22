@@ -1,0 +1,144 @@
+.primerBanner {
+  width: 100%;
+  height: 480px;
+  background-color: #f2f2f2;
+  padding: 70px 200px;
+}
+
+.primerContent {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.primerContent h2 {
+  color: #545454;
+  font-size: 43px;
+  width: 120%;
+}
+
+.primerContentParrafos {
+  width: 90%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.primerContentParrafos h4 {
+  font-size: 20px;
+}
+
+.primerContentParrafos p {
+  color: #545454;
+  font-weight: 300;
+}
+
+/* cover Acerca */
+.coverAcerca {
+  width: 100%;
+  height: 450px;
+  background-image: url("/cover_contactanos.jpg");
+  background-size: cover;
+  background-position: 0px -150px;
+}
+
+.coverAcerca {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.acerca {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acerca h2 {
+  font-size: 40px;
+  color: #545454;
+  font-weight: 650;
+  text-align: center;
+}
+
+.acercaTitulo {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #4192ef;
+  margin-bottom: 35px;
+  margin-left: 20px;
+}
+
+.Importante {
+  padding: 100px 200px;
+  padding-bottom: 0px;
+}
+
+.mainImportante {
+  display: flex;
+  gap: 33px;
+  margin-left: 20px;
+}
+
+.mainImportante h3 {
+  color: #4192ef;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.mainImportanteP {
+  margin-top: 20px;
+  margin-right: 14%;
+  font-weight: 300;
+}
+
+.mainImportanteTitulo {
+  width: 100%;
+}
+
+/* 
+
+HISTORIA
+*/
+
+.historiaTitulo {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #4192ef;
+  margin-bottom: 35px;
+}
+
+.historia {
+  background-color: #f2f2f2;
+  padding: 50px;
+  padding-top: 80px;
+  padding-left: 220px;
+  height: 640px;
+  margin: 0px 0px 50px;
+}
+
+.mainHistoriaContent {
+  display: flex;
+  gap: 60px;
+}
+
+.historiaContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.historiaContainer p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.historia h3 {
+  font-size: 40px;
+  color: #545454;
+}
