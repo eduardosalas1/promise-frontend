@@ -1,0 +1,61 @@
+.mainInvestigadores {
+  width: 100%;
+  height: 1400px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+  gap: 40px;
+}
+
+.mainInvestigadoresInternacionales {
+  width: 100%;
+  height: 1250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+  gap: 40px;
+}
+
+.mainInvestigadores h3 {
+  color: #4192ef;
+  font-weight: 650;
+  font-size: 25px;
+  letter-spacing: 2;
+}
+
+.mainInvestigadores h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.ciudad {
+  display: flex;
+  gap: 10px;
+}
+
+.ciudad p {
+  font-size: 20px;
+}
+
+.investigadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.bottomInvestigadores {
+  display: flex;
+  gap: 80px;
+}

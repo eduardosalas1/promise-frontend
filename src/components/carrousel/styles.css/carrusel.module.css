@@ -71,3 +71,24 @@
   width: 20px;
   height: 30px;
 }
+
+/* Involucrados */
+
+.involucradosCarrusel {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.InvolucradosimageContainer {
+  display: flex;
+  gap: 120px;
+  margin-top: -10px;
+}
+
+.arrowInvolucrados {
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+}

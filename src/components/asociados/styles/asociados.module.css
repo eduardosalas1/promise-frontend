@@ -1,0 +1,66 @@
+.all {
+  text-align: center;
+  margin: 90px;
+}
+
+.imgContainer {
+  width: 60%;
+}
+.imagen {
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.Componentes {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+.asociadoComponente {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.tituloContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.imgBandera {
+  width: 30px;
+  height: 30px;
+}
+
+.textoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  text-align: left;
+}
+
+.textoContainer h3 {
+  color: #1d2130;
+  letter-spacing: 0;
+}
+
+.textoContainer a {
+  color: #4192ef;
+}
+
+.textoContainer a:hover {
+  text-decoration: underline;
+}

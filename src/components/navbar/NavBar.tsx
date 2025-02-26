@@ -13,7 +13,9 @@ const NavBar = () => {
       <ul>
         <a href="./">Inicio</a>
         <a href="./acerca">Acerca de PrOMIS</a>
-        <a href="#">Investigadores e Instituciones</a>
+        <a href="./investigadores_e_instituciones">
+          Investigadores e Instituciones
+        </a>
         <a href="./publicaciones">Hallazgos</a>
         <a href="./contacto">Contacto</a>
       </ul>

@@ -1,0 +1,65 @@
+.cuadro {
+  object-position: -12px 0px;
+  object-fit: cover;
+}
+
+.allCuadro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: -10px;
+}
+
+.allCuadro h4 {
+  color: #1d2130;
+  font-size: 22px;
+}
+
+.allCuadro p {
+  color: #1d2130;
+  font-weight: 500;
+  font-size: 16.4px;
+  opacity: 60%;
+}
+
+.allCuadro a {
+  color: #4192ef;
+}
+
+.allCuadro a:hover {
+  text-decoration: underline;
+}
+
+.imageContainer {
+  position: relative;
+  width: 296px;
+  height: 320px;
+}
+
+.iconoCruzArriba {
+  position: absolute;
+  top: -4px;
+  right: -67px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconoCruzAbajo {
+  position: absolute;
+  bottom: -4px;
+  right: -67px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
