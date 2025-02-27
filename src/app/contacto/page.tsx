@@ -3,7 +3,7 @@ import React from "react";
 import styles from "@/styles/contactos.module.css";
 import Image from "next/image";
 
-const ContactoPage = () => {
+const page = () => {
   return (
     <div className={styles.all}>
       <div className={styles.contactanos}>
@@ -65,4 +65,4 @@ const ContactoPage = () => {
   );
 };
 
-export default ContactoPage;
+export default page;

@@ -1,0 +1,112 @@
+/* General */
+.all {
+  width: 100%;
+}
+
+.all h3 {
+  font-size: 23px;
+  letter-spacing: 2;
+}
+
+.all h2 {
+  font-size: 48px;
+}
+
+/* Main Banner */
+
+.mainBanner {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+.yellowMainBanner {
+  width: 100%;
+  height: 350px;
+  background-color: #f2c94c;
+  padding: 95px 0px 0px 205px;
+}
+
+.textMainBanner {
+  margin-top: 30px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.textMainBanner p {
+  color: #525560;
+  font-size: 19px;
+  width: 37%;
+}
+
+.imagenMainBanner {
+  object-fit: cover;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+}
+
+/* Body banner */
+
+.bodyBanner {
+  width: 100%;
+  height: 650px;
+  color: #1d2130;
+  padding: 20px 150px;
+}
+
+.bodyBanner h2 {
+  font-size: 42px;
+}
+
+.bodyBanner p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.ComponentBodyBanner {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rowBodyBanner {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  text-align: left;
+}
+
+.buttonComponents {
+  display: flex;
+  margin-top: 10px;
+}
+
+.classicButton {
+  background-color: transparent;
+  border: transparent;
+  color: #525560;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 1px solid #6f7071;
+  cursor: pointer;
+}
+
+.yellowButton {
+  background-color: transparent;
+  border: transparent;
+  color: #1d2130;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 2px solid #f9cf64;
+  cursor: pointer;
+}
+
+.separatorBodyBanner {
+  margin: 100px auto;
+  width: 100%;
+  border-bottom: 2px solid #e5e5e5;
+}

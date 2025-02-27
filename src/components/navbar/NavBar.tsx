@@ -19,7 +19,9 @@ const NavBar = () => {
         <a href="./publicaciones">Hallazgos</a>
         <a href="./contacto">Contacto</a>
       </ul>
-      <button>Actualidad PrOMIS</button>
+      <a href="./actualidad" className={styles.boton}>
+        Actualidad PrOMIS
+      </a>
     </nav>
   );
 };
