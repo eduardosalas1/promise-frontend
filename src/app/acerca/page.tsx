@@ -57,6 +57,7 @@ const page = () => {
               alt="Equipo de Promis"
               width={600}
               height={400}
+              className={styles.imageMision}
             />
           </div>
         </div>
