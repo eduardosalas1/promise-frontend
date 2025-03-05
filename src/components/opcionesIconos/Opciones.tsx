@@ -32,7 +32,8 @@ const Opciones = () => {
         />
         <div className={styles.IconoFooter}>
           <h2 className={styles.iconoTitulo}>
-            Innovación y<br /> Genética
+            Investigación
+            <br /> Genómica
           </h2>
           <button>ver más +</button>
         </div>

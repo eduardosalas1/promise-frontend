@@ -9,7 +9,7 @@ const Unete = () => {
         compromiso.&quot;
       </p>
       <div className={styles.botonera}>
-        <button className={styles.botonAzul}>Formulario PrOMIS</button>
+        {/* <button className={styles.botonAzul}>Formulario PrOMIS</button> */}
         <button className={styles.botonGris}>Contáctanos</button>
       </div>
     </div>

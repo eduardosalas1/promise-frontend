@@ -20,7 +20,7 @@ const NavBar = () => {
         <a href="./contacto">Contacto</a>
       </ul>
       <a href="./actualidad" className={styles.boton}>
-        Actualidad PrOMIS
+        Soy participante
       </a>
     </nav>
   );

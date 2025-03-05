@@ -4,11 +4,11 @@ import React, { useState } from "react";
 import styles from "./styles.css/carrusel.module.css";
 
 const institutions = [
-  { src: "/msh-logo.png", alt: "MGH" },
+  // { src: "/msh-logo.png", alt: "MGH" },
   { src: "/materno-perinatal.png", alt: "Materno perinatal" },
   { src: "/harvard-logo.png", alt: "Harvard" },
-  { src: "/broad-logo.png", alt: "Broad" },
-  { src: "/TU-logo.png", alt: "Technique" },
+  // { src: "/broad-logo.png", alt: "Broad" },
+  // { src: "/TU-logo.png", alt: "Technique" },
 ];
 
 const Carrusel = () => {

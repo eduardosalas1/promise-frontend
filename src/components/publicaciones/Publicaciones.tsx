@@ -12,8 +12,8 @@ const Publicaciones = () => {
             Outdoor charity
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
+            Impacto de la violencia en la salud física y mental de las madres
+            durante el embarazo
           </p>
           <button>Ver más +</button>
         </div>
@@ -22,8 +22,8 @@ const Publicaciones = () => {
         <div className={styles.cuadro}>
           <h3>Weekly excursions</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
+            Relación entre experiencias traumáticas y marcadores de estrés
+            crónico en el embarazo
           </p>
           <button>Ver más +</button>
         </div>
@@ -35,10 +35,7 @@ const Publicaciones = () => {
             <br />
             awareness
           </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
+          <p>Riesgos en el embarazo asociados con estrés crónico de la madre</p>
           <button>Ver más +</button>
         </div>
       </div>
