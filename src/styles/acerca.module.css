@@ -150,10 +150,11 @@ HISTORIA
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .historiaImagen p {
   font-size: 15px;
   font-weight: 200;
-  width: 72%;
+  width: 580;
 }
