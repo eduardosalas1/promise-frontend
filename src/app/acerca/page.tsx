@@ -18,9 +18,9 @@ const page = () => {
           </h2>
           <div className={styles.primerContentParrafos}>
             <h4>
-              PrOMIS es un estudio de investigación prenatal longitudinal que
-              realiza un seguimiento de la salud de la madre y su hijo o hija
-              desde el embarazo hasta los 15 años del niño o niña.
+              PrOMIS es un estudio longitudinal enfocado en hacer seguimiento de
+              la salud física y mental de la madre y de su hijo en la etapa
+              prenatal y postnatal durante el desarrollo de la niñez
             </h4>
             <p>
               Comenzó en febrero de 2012, con una convocatoria a aproximadamente
@@ -43,22 +43,27 @@ const page = () => {
               <br /> cambiar realidades
             </h3>
             <p>
-              En 2005, un alarmante estudio de la Organización Mundial de la
-              Salud sobre la violencia contra la mujer reveló una dura verdad en
-              Perú. Estos hallazgos impulsaron a un grupo de investigadores a
-              profundizar en cómo las experiencias de violencia afectan la salud
-              de las mujeres y la de sus hijos e hijas. Así nació PrOMIS: un
-              estudio comprometido con generar cambios significativos.
+              En 2005, un estudio de la Organización Mundial de la Salud sobre
+              la violencia contra la mujer reveló una dura verdad en Perú. Estos
+              hallazgos impulsaron a un grupo de investigadores nacionales e
+              internacionales a profundizar en cómo las experiencias de
+              violencia afectan la salud física y mental de las mujeres y la de
+              sus hijos e hijas. Así nació PrOMIS: un estudio comprometido con
+              generar cambios significativos.
             </p>
           </div>
-          <div>
+          <div className={styles.historiaImagen}>
             <Image
               src="/equipoPromis.jpg"
               alt="Equipo de Promis"
               width={600}
               height={400}
-              className={styles.imageMision}
+              // className={styles.imageMision}
             />
+            <p>
+              Evento de socialización y divulgación de resultados con la
+              comunidad del estudio PrOMIS, Agosto 2023.
+            </p>
           </div>
         </div>
       </div>
@@ -68,19 +73,15 @@ const page = () => {
         <p className={styles.acercaTitulo}>+ ¿POR QUÉ PrOMIS ES IMPORTANTE?</p>
         <div className={styles.mainImportante}>
           <div className={styles.mainImportanteTitulo}>
-            <h3>
-              &quot;Abordando
-              <br />
-              las raíces del problema&quot;
-            </h3>
+            <h3>&quot;Abordando las raíces del problema&quot;</h3>
           </div>
 
           <div className={styles.mainImportanteP}>
             <p>
-              PrOMIS investiga cómo los factores estresantes, como la violencia,
-              influyen en la salud de las mujeres y en el desarrollo físico y
-              emocional de sus hijos e hijas, para proponer soluciones basadas
-              en evidencia.
+              PrOMIS investiga cómo los factores psicosociales, como la
+              violencia intrafamiliar, influyen en la salud física y mental de
+              las madres y en el desarrollo físico y emocional de sus hijos e
+              hijas, para proponer soluciones basadas en evidencia.
             </p>
           </div>
         </div>

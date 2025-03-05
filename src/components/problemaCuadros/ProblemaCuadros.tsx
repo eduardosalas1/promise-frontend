@@ -7,7 +7,7 @@ const ProblemaCuadros = () => {
     <div className={styles.problema}>
       <CuadroAzul
         titulo="Riesgo de parto prematuro"
-        parrafo="Cómo el abuso afecta la salud durante el embarazo."
+        parrafo="Cómo el abuso afecta la salud física y mental durante el embarazo"
       />
       <CuadroAzul
         titulo="Desarrollo Infantil"
@@ -15,7 +15,7 @@ const ProblemaCuadros = () => {
       />
       <CuadroAzul
         titulo="Relación madre/hijo(a)"
-        parrafo="Calidad del vínculo y su relación con la salud emocional y genética."
+        parrafo="Calidad del vínculo y su relación con la salud emocional y biológica."
       />
     </div>
   );

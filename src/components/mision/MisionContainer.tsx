@@ -8,7 +8,7 @@ const MisionContainer = () => {
       <MisionCuadro
         titulo="MISIÓN"
         eslogan="Investigación con propósito, impacto y compromiso social."
-        parrafo="Nos dedicamos a generar conocimiento científico que inspire cambios significativos en políticas y prácticas de salud materno-infantil, con un enfoque ético, riguroso y humano."
+        parrafo="Nos dedicamos a generar conocimiento científico que inspire cambios significativos en políticas y prácticas de salud materno-infantil, con un enfoque ético riguroso y humano."
       />
       <MisionCuadro
         titulo="VISIÓN"
