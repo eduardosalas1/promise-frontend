@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import styles from "./styles.css/carrusel.module.css";
 
 const institutions = [
@@ -12,23 +12,7 @@ const institutions = [
 ];
 
 const Carrusel = () => {
-  const [logos, setLogos] = useState(institutions);
-  const [animationKey, setAnimationKey] = useState(0);
-
-  const nextSlide = () => {
-    setAnimationKey((prev) => prev + 1);
-    setTimeout(() => {
-      setLogos((prev) => [...prev.slice(1), prev[0]]);
-    }, 300);
-  };
-
-  const prevSlide = () => {
-    setAnimationKey((prev) => prev - 1);
-    setTimeout(() => {
-      setLogos((prev) => [prev[prev.length - 1], ...prev.slice(0, -1)]);
-    }, 300);
-  };
-
+  const logos = institutions;
   return (
     <div className={styles.carousel}>
       <h2 className={styles.title}>Instituciones Encargadas</h2>
