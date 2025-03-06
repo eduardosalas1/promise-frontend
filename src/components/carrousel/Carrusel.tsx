@@ -31,19 +31,16 @@ const Carrusel = () => {
 
   return (
     <div className={styles.carousel}>
-      <h2 className={styles.title}>Instituciones Asociadas</h2>
+      <h2 className={styles.title}>Instituciones Encargadas</h2>
 
       <div className={styles.carouselContainer}>
-        <img
+        {/* <img
           className={styles.arrow}
           src="/arrow-left.svg"
           alt="flecha izquierda"
           onClick={prevSlide}
-        />
-        <div
-          className={`${styles.imageContainer} ${styles.animated}`}
-          key={animationKey}
-        >
+        /> */}
+        <div className={styles.imageContainer}>
           {logos.map((logo, index) => (
             <img
               key={index}
@@ -59,12 +56,12 @@ const Carrusel = () => {
             />
           ))}
         </div>
-        <img
+        {/* <img
           className={styles.arrow}
           src="/arrow-right.svg"
           alt="flecha derecha"
           onClick={nextSlide}
-        />
+        /> */}
       </div>
     </div>
   );

@@ -150,11 +150,13 @@ HISTORIA
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
+  text-align: right;
 }
 
 .historiaImagen p {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 200;
+  margin-left: 100px;
   width: 60%;
+  text-align: end;
 }

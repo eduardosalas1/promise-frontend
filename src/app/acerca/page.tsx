@@ -63,6 +63,13 @@ const page = () => {
             <p>
               Evento de socialización y divulgación de resultados con la
               comunidad del estudio PrOMIS, Agosto 2023.
+              <br />
+              <a
+                href="https://www.who.int/publications/i/item/9241593512"
+                target="_blank"
+              >
+                https://www.who.int/publications/i/item/9241593512
+              </a>
             </p>
           </div>
         </div>

@@ -8,19 +8,19 @@ const Actualidad = () => {
         <h4>
           + AVANCES Y <br /> SEGUIMIENTOS
         </h4>
-        <h2>Actualidad PrOMIS</h2>
+        <h2>Soy Participante</h2>
         <p>
-          &quot;A lo largo de tres etapas de seguimiento, PrOMIS ha recopilado
-          información valiosa sobre cómo el entorno materno influye en el
-          desarrollo infantil. Conoce los avances de cada fase y las
-          contribuciones clave de nuestros colaboradores.&quot;
+          &quot;Si ha participado en PrOMIS cuando estaba embarazada y se
+          atendía en el Instituto Nacional Materno Perinatal, conocido como La
+          Maternidad de Lima, puedes ver aspectos que le interesen sobre su
+          participación y futuros seguimientos.&quot;
         </p>
-        <button>Ver avances</button>
+        <button>Ver seguimientos</button>
       </div>
       <div>
         <img
           className={styles.textoImagen}
-          src="/embarazo_corazon.jpg"
+          src="/gettyimages-1318243357-2048x2048.jpg"
           alt="Chica embarazada agarrandose la barriga en forma de corazon"
         />
       </div>

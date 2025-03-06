@@ -13,7 +13,7 @@ const MisionCuadro = ({
   return (
     <div className={styles.content}>
       <h4 className={titulo === "MISIÓN" ? styles.yellow : styles.pink}>
-        *{titulo}
+        +{titulo}
       </h4>
       <h2>&quot;{eslogan}&quot;</h2>
       <p>{parrafo}</p>

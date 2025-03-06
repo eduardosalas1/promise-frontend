@@ -7,35 +7,29 @@ const Publicaciones = () => {
       <div className={styles.cuadro1}>
         <div className={styles.cuadro}>
           <h3>
-            Mission smile 1k:
-            <br />
-            Outdoor charity
-          </h3>
-          <p>
             Impacto de la violencia en la salud física y mental de las madres
             durante el embarazo
-          </p>
+          </h3>
+
           <button>Ver más +</button>
         </div>
       </div>
       <div className={styles.cuadro2}>
         <div className={styles.cuadro}>
-          <h3>Weekly excursions</h3>
-          <p>
+          <h3>
             Relación entre experiencias traumáticas y marcadores de estrés
             crónico en el embarazo
-          </p>
+          </h3>
+
           <button>Ver más +</button>
         </div>
       </div>
       <div className={styles.cuadro3}>
         <div className={styles.cuadro}>
           <h3>
-            Monthly public
-            <br />
-            awareness
+            Riesgos en el embarazo asociados con estrés crónico de la madre
           </h3>
-          <p>Riesgos en el embarazo asociados con estrés crónico de la madre</p>
+
           <button>Ver más +</button>
         </div>
       </div>

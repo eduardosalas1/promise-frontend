@@ -24,6 +24,6 @@
 }
 
 .content p {
-  /* font-weight: lighter; */
-  color: black;
+  font-weight: bold;
+  color: white;
 }

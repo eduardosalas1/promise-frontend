@@ -15,7 +15,7 @@ const MainBanner = () => {
       <div className={styles.mainFooter}>
         <p>5000 Madres Participantes</p>
         <div className={styles.line}></div>
-        <p>+ 50 Estudios Publicados</p>
+        <p>+ de 11 años de estudio</p>
       </div>
     </div>
   );
