@@ -30,6 +30,11 @@
   align-items: center;
 }
 
+.imageMGH {
+  width: auto;
+  height: 60px;
+}
+
 .imageMaterno {
   width: auto;
   height: 90px;

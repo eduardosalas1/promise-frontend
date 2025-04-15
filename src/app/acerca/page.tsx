@@ -85,9 +85,9 @@ const page = () => {
 
           <div className={styles.mainImportanteP}>
             <p>
-              PrOMIS investiga cómo los factores psicosociales, como la
-              violencia intrafamiliar, influyen en la salud física y mental de
-              las madres y en el desarrollo físico y emocional de sus hijos e
+              PrOMIS investiga cómo los factores de estres psicosociales, como
+              la violencia intrafamiliar, influyen en la salud física y mental
+              de las madres y en el desarrollo físico y emocional de sus hijos e
               hijas, para proponer soluciones basadas en evidencia.
             </p>
           </div>

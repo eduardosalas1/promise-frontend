@@ -18,7 +18,7 @@ const InvestigadoresInternacionales = () => {
           nombre="Bizu Gelaye"
           profesion="Profesor de Epidemiología y Psiquiatría"
           texto_link="Harvard Bizu Gelaye"
-          link=""
+          link="https://connects.catalyst.harvard.edu/Profiles/display/Person/104635"
           color="azul"
           posicion="arriba"
         />
@@ -27,8 +27,8 @@ const InvestigadoresInternacionales = () => {
             src="/elizabeth_levey.jpg"
             nombre="Elizabeth Levey"
             profesion="Profesor de Epidemiología y Psiquiatría"
-            texto_link="Harvard Bizu Gelaye"
-            link=""
+            texto_link="Harvard Elizabeth Levey"
+            link="https://connects.catalyst.harvard.edu/Profiles/display/Person/33148"
             color="amarillo"
             posicion="abajo"
           />
@@ -36,8 +36,8 @@ const InvestigadoresInternacionales = () => {
             src="/archana_basu.jpg"
             nombre="Archana Basu"
             profesion="Profesor de Epidemiología y Psiquiatría"
-            texto_link="Harvard Bizu Gelaye"
-            link=""
+            texto_link="Harvard Archana Basu"
+            link="https://connects.catalyst.harvard.edu/Profiles/display/Person/141019"
             color="amarillo"
             posicion="abajo"
           />
@@ -45,8 +45,8 @@ const InvestigadoresInternacionales = () => {
             src="/diana_juvinao_quintero.jpg"
             nombre="Diana Juvinao-Quintero"
             profesion="Profesor de Epidemiología y Psiquiatría"
-            texto_link="Harvard Bizu Gelaye"
-            link=""
+            texto_link="Harvard Diana Juvinao-Quintero"
+            link="https://connects.catalyst.harvard.edu/Profiles/display/Person/178858"
             color="amarillo"
             posicion="abajo"
           />

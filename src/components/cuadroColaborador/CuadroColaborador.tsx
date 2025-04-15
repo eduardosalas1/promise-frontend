@@ -10,6 +10,8 @@ const CuadroColaborador = ({
   link,
   color,
   posicion,
+  width = 310,
+  height = 320,
 }: {
   src: string;
   nombre: string;
@@ -18,14 +20,16 @@ const CuadroColaborador = ({
   link: string;
   color: string;
   posicion: string;
+  width?: number;
+  height?: number;
 }) => {
   return (
     <div className={styles.allCuadro}>
       <div className={styles.imageContainer}>
         <Image
           src={src}
-          height={320}
-          width={310}
+          height={height}
+          width={width}
           alt="Imagen de colaborador"
           className={styles.cuadro}
         />

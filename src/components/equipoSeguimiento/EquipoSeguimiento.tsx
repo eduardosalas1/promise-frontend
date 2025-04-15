@@ -16,7 +16,7 @@ const EquipoSeguimiento = () => {
         <CuadroColaborador
           src="/elena_sanchez.jpg"
           nombre="Elena Sánchez"
-          profesion="Coordinadora del estudio PrOMIS"
+          profesion="Coordinadora de investigacion"
           texto_link=""
           link=""
           color="rosado"

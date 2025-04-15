@@ -15,7 +15,7 @@ const ProblemaCuadros = () => {
       />
       <CuadroAzul
         titulo="Relación madre/hijo(a)"
-        parrafo="Calidad del vínculo y su relación con la salud emocional y biológica."
+        parrafo="Calidad del vínculo y su relación con la salud emocional y biológica del hijo."
       />
     </div>
   );

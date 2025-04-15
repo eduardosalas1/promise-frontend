@@ -16,6 +16,13 @@
   flex-direction: column;
   gap: 5px;
   margin-left: -10px;
+  text-align: center;
+  align-items: center;
+}
+
+.informacion p {
+  text-wrap: wrap;
+  width: 70%;
 }
 
 .allCuadro h4 {
