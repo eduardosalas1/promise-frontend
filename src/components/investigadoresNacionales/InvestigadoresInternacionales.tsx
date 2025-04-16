@@ -14,7 +14,7 @@ const InvestigadoresInternacionales = () => {
       </div>
       <div className={styles.investigadores}>
         <CuadroColaborador
-          src="/bizu_gelaye.jpg"
+          src="/bizu-gelaye-2.jpg"
           nombre="Bizu Gelaye"
           profesion="Profesor de Epidemiología y Psiquiatría"
           texto_link="Harvard Bizu Gelaye"
