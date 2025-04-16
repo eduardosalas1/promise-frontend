@@ -1,5 +1,6 @@
 .all {
   width: 100%;
+  height: 100%;
 }
 
 .all h3 {
@@ -15,13 +16,15 @@
 }
 
 .involucrados {
-  height: 2500px;
+  height: 100%;
   background-color: #f2f2f2;
+  margin-bottom: 10%;
 }
 
 .involucradosTop {
   width: 100%;
-  padding: 120px;
+  padding-top: 0px;
+  padding-bottom: 120px;
   padding-left: 200px;
   display: flex;
   flex-direction: column;

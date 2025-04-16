@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import styles from "./styles.css/carrusel.module.css";
 
 const institutions = [
-  { src: "/Bristol.png", alt: "MGH" },
-  { src: "/broad-logo.png", alt: "Broad" },
   { src: "/TU-logo.png", alt: "Technique" },
+  { src: "/broad-logo.png", alt: "Broad" },
+  { src: "/Bristol.png", alt: "MGH" },
 ];
 
 const CarruselInvolucrados = () => {

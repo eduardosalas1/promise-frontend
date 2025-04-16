@@ -5,12 +5,12 @@ import Hallazgos from "../hallazgos/Hallazgos";
 const CuadroInformativo = () => {
   return (
     <div className={styles.mainCuadro}>
-      <Hallazgos imagen="/madre_panza.jpg" titulo="Investigación 01" />
-      <Hallazgos imagen="/mujer_hijo.jpg" titulo="Investigación 02" />
+      <Hallazgos imagen="/madre_panza.jpg" titulo="Salud Materna y estrés" />
       <Hallazgos
-        imagen="/bebe_lactando.jpg"
-        titulo="Investigación e Indagación 03"
+        imagen="/mujer_hijo.jpg"
+        titulo="Desarrollo y salud infantil"
       />
+      <Hallazgos imagen="/bebe_lactando.jpg" titulo="Innovación genómica" />
     </div>
   );
 };

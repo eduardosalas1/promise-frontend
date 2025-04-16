@@ -5,6 +5,7 @@ import InvestigadoresInternacionales from "@/components/investigadoresNacionales
 import CarruselInvolucrados from "@/components/carrousel/CarruselInvolucrados";
 import CuadroColaborador from "@/components/cuadroColaborador/CuadroColaborador";
 import AsociadosInstituciones from "@/components/asociados/AsociadosInstituciones";
+import AsociadosInstitucionesEncargadas from "@/components/asociados/AsociadosInstitucionesEncargadas";
 
 const page = () => {
   return (
@@ -15,6 +16,8 @@ const page = () => {
       <div className={styles.involucrados}>
         <h3 className={styles.involucradosTop}>+ INVOLUCRADOS EN PROMIS</h3>
         <AsociadosInstituciones />
+        <AsociadosInstitucionesEncargadas />
+
         <div className={styles.involucradosTop}>
           <div className={styles.colaboradores}>
             <h2>Instituciones Colaboradoras</h2>

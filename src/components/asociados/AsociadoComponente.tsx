@@ -15,7 +15,7 @@ const AsociadoComponente = ({
   titulo: string;
   parrafo: string;
   text_link: string;
-  link: string;
+  link?: string;
 }) => {
   return (
     <div className={styles.asociadoComponente}>
