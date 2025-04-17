@@ -35,6 +35,8 @@ const Carrusel = () => {
                   ? styles.imageMGH
                   : logo.alt === "Materno perinatal"
                   ? styles.imageMaterno
+                  : logo.alt === "Harvard"
+                  ? styles.imageHarvard
                   : styles.image
               }
             />

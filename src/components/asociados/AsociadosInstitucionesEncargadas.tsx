@@ -12,7 +12,7 @@ const AsociadosInstitucionesEncargadas = () => {
           bandera="peru"
           titulo="Instituto Nacional Materno Perinatal (INMP)"
           parrafo="Especializado en la atención materno perinatal, brindando cuidado a mujeres de bajos ingresos. El INMP es clave en la realización del estudio PrOMIS desde 2012."
-          text_link="INMP"
+          text_link=""
           link=""
         />
         {/* <AsociadoComponente
@@ -28,7 +28,7 @@ const AsociadosInstitucionesEncargadas = () => {
           bandera="usa"
           titulo="Universidad de Harvard"
           parrafo="Especializado en la atención materno perinatal, brindando cuidado a mujeres de bajos ingresos. El INMP es clave en la realización del estudio PrOMIS desde 2012."
-          text_link="INMP"
+          text_link=""
           link=""
         />
         {/* <AsociadoComponente

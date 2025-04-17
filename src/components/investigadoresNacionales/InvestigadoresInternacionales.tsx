@@ -26,7 +26,7 @@ const InvestigadoresInternacionales = () => {
           <CuadroColaborador
             src="/elizabeth_levey.jpg"
             nombre="Elizabeth Levey"
-            profesion="Profesor de Epidemiología y Psiquiatría"
+            profesion="Psiquiatra de adultos, niños y adolescentes"
             texto_link="Harvard Elizabeth Levey"
             link="https://connects.catalyst.harvard.edu/Profiles/display/Person/33148"
             color="amarillo"
@@ -35,7 +35,7 @@ const InvestigadoresInternacionales = () => {
           <CuadroColaborador
             src="/archana_basu.jpg"
             nombre="Archana Basu"
-            profesion="Profesor de Epidemiología y Psiquiatría"
+            profesion=" Psicóloga en la División de Psiquiatría Infantil y Adolescente"
             texto_link="Harvard Archana Basu"
             link="https://connects.catalyst.harvard.edu/Profiles/display/Person/141019"
             color="amarillo"
@@ -44,7 +44,7 @@ const InvestigadoresInternacionales = () => {
           <CuadroColaborador
             src="/diana_juvinao_quintero.jpg"
             nombre="Diana Juvinao-Quintero"
-            profesion="Profesor de Epidemiología y Psiquiatría"
+            profesion="Epidemiologa prenatal y molecular"
             texto_link="Harvard Diana Juvinao-Quintero"
             link="https://connects.catalyst.harvard.edu/Profiles/display/Person/178858"
             color="amarillo"

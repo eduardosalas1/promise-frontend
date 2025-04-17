@@ -48,10 +48,10 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      {/* <div className={styles.form}>
-        <p>Ingresa a nuestro formulario para ser parte de PrOMIS</p>
-        <button>Formulario PrOMis</button>
-      </div> */}
+      <div className={styles.form}>
+        <p>Únete a nuestra misión de compromiso</p>
+        <button>Contáctanos</button>
+      </div>
     </footer>
   );
 };

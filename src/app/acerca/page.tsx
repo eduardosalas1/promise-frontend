@@ -50,6 +50,14 @@ const page = () => {
               violencia afectan la salud física y mental de las mujeres y la de
               sus hijos e hijas. Así nació PrOMIS: un estudio comprometido con
               generar cambios significativos.
+              <br />
+              <br />
+              <a
+                href="https://www.who.int/publications/i/item/9241593512"
+                target="_blank"
+              >
+                https://www.who.int/publications/i/item/9241593512
+              </a>
             </p>
           </div>
           <div className={styles.historiaImagen}>
@@ -64,12 +72,6 @@ const page = () => {
               Evento de socialización y divulgación de resultados con la
               comunidad del estudio PrOMIS, Agosto 2023.
               <br />
-              <a
-                href="https://www.who.int/publications/i/item/9241593512"
-                target="_blank"
-              >
-                https://www.who.int/publications/i/item/9241593512
-              </a>
             </p>
           </div>
         </div>

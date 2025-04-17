@@ -27,7 +27,7 @@ const InvestigadoresNacionales = () => {
           <CuadroColaborador
             src="/marta_rondon_rondon.jpg"
             nombre="Marta Rondón Rondón"
-            profesion="Psiquiatra"
+            profesion="Médico Psiquiatra"
             texto_link="CTI Vitae Marta Rondón Rondón"
             link="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=212205"
             color="amarillo"
@@ -38,7 +38,7 @@ const InvestigadoresNacionales = () => {
             nombre="Nélida Pinto Aliaga"
             profesion="Médica Gineco Obstetra"
             texto_link="CTI Vitae Nélido Pinto Aliaga"
-            link="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=212205"
+            link="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=110862"
             color="amarillo"
             posicion="abajo"
           />

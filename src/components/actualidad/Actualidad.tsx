@@ -20,7 +20,7 @@ const Actualidad = () => {
       <div>
         <img
           className={styles.textoImagen}
-          src="/gettyimages-1318243357-2048x2048.jpg"
+          src="/foto_soy_participante_home_2.jpg"
           alt="Chica embarazada agarrandose la barriga en forma de corazon"
         />
       </div>

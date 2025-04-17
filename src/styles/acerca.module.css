@@ -160,3 +160,11 @@ HISTORIA
   width: 60%;
   text-align: end;
 }
+
+.historiaContainer a {
+  color: #4192ef;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: underline;
+  margin-top: 20px;
+}

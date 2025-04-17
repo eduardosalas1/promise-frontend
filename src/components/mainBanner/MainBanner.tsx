@@ -13,7 +13,7 @@ const MainBanner = () => {
         <button>Conoce nuestra historia</button>
       </div>
       <div className={styles.mainFooter}>
-        <p>5000 Madres Participantes</p>
+        <p>+ de 5000 Madres Participantes</p>
         <div className={styles.line}></div>
         <p>+ de 11 años de estudio</p>
       </div>

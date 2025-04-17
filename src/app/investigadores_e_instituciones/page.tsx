@@ -3,7 +3,7 @@ import React from "react";
 import styles from "@/styles/investigadores.module.css";
 import InvestigadoresInternacionales from "@/components/investigadoresNacionales/InvestigadoresInternacionales";
 import CarruselInvolucrados from "@/components/carrousel/CarruselInvolucrados";
-import CuadroColaborador from "@/components/cuadroColaborador/CuadroColaborador";
+// import CuadroColaborador from "@/components/cuadroColaborador/CuadroColaborador";
 import AsociadosInstituciones from "@/components/asociados/AsociadosInstituciones";
 import AsociadosInstitucionesEncargadas from "@/components/asociados/AsociadosInstitucionesEncargadas";
 
@@ -19,47 +19,24 @@ const page = () => {
         <AsociadosInstitucionesEncargadas />
 
         <div className={styles.involucradosTop}>
+          <h3 className={styles.involucradosTop}>+ INVOLUCRADOS EN PROMIS</h3>
           <div className={styles.colaboradores}>
-            <h2>Instituciones Colaboradoras</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis
-            </p>
+            <h2>
+              Instituciones <br />
+              Colaboradoras
+            </h2>
           </div>
+          <CarruselInvolucrados />
         </div>
-        <CarruselInvolucrados />
-        <div className={styles.bottomInvestigadores}>
-          <CuadroColaborador
-            src="/elizabeth_levey.jpg"
-            nombre=""
-            profesion="Diversidad en los patrones de metilacion del ADN entre poblaciones y riesgo diferencial de enfermedades"
-            texto_link=""
-            link=""
-            color="amarillo"
-            posicion="abajo"
-          />
-          <CuadroColaborador
-            src="/archana_basu.jpg"
-            nombre=""
-            profesion="Biomarcadores de estres cronico"
-            texto_link=""
-            link=""
-            color="amarillo"
-            posicion="abajo"
-          />
-          <CuadroColaborador
-            src="/diana_juvinao_quintero.jpg"
-            nombre=""
-            profesion="Marcadores metabolomicos e inmunitarios asociados con problemas de salud mental y del embarazo."
-            texto_link=""
-            link=""
-            color="amarillo"
-            posicion="abajo"
-          />
-        </div>
+
+        <div className={styles.bottomInvestigadores}></div>
       </div>
     </div>
   );
 };
 
 export default page;
+
+// Diversidad en los patrones de metilacion del ADN entre poblaciones y riesgo diferencial de enfermedades
+// Biomarcadores de estres cronico
+// Marcadores metabolomicos e inmunitarios asociados con problemas de salud mental y del embarazo.
