@@ -1,0 +1,107 @@
+/* Encabezados */
+.encabezadoSeguimiento {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 13%;
+  gap: 7%;
+  color: #000;
+}
+
+.encabezadoSeguimiento h2 {
+  font-size: 2.5rem;
+  color: #545454;
+  font-weight: bold;
+}
+
+.encabezadoSeguimiento p {
+  font-weight: 300;
+}
+
+/* Seguimientos*/
+
+.seguimientos {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+  margin-top: 7%;
+  margin-bottom: 15%;
+}
+
+/* Cuadros */
+
+.listaDiv {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.icono {
+  width: 62%;
+  height: 62%;
+  margin-bottom: 6%;
+}
+
+.iconoRosado {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 20%;
+}
+
+.encabezadoCuadro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  gap: 5%;
+}
+
+.tituloCuadro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.tituloCuadro h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.tituloCuadro p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.cuadro {
+  width: 340px;
+  height: 630px;
+  padding: 5% 2%;
+  padding-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 12%;
+}
+
+.azul {
+  background-color: #007bff;
+  color: white;
+}
+
+.amarillo {
+  background-color: #f2c94c;
+  color: #1e1e1e;
+}
+
+.rosado {
+  background-color: #ffb6e8;
+  color: #1e1e1e;
+}

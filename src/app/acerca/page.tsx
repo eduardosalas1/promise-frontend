@@ -5,6 +5,7 @@ import ProblemaCuadros from "@/components/problemaCuadros/ProblemaCuadros";
 import DatosConciencia from "@/components/datosConciencia/DatosConciencia";
 import Image from "next/image";
 import MisionContainer from "@/components/mision/MisionContainer";
+import NuestrosSeguimientos from "@/components/NuestrosSeguimientos/NuestrosSeguimientos";
 
 const page = () => {
   return (
@@ -76,6 +77,8 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      <NuestrosSeguimientos />
 
       <DatosConciencia />
       <div className={styles.Importante}>
