@@ -24,8 +24,8 @@ const AsociadoComponente = ({
         <div className={styles.imgContainer}>
           <Image
             src={src}
-            width={259}
-            height={163}
+            width={src === "/NIH.png" ? 210 : 259}
+            height={src === "/NIH.png" ? 120 : 163}
             alt="Institucion"
             className={styles.imagen}
           />
@@ -43,7 +43,25 @@ const AsociadoComponente = ({
             />
           </div>
           <p>{parrafo}</p>
-          <a href={link}>{text_link}</a>
+          {src === "/NIH.png" ? null : <a href={link}>{text_link}</a>}
+
+          {src === "/NIH.png" ? (
+            <>
+              <div className={styles.line}></div>
+              <div className={styles.nihLow}>
+                <p>
+                  NICHD: Eunice Kennedy National <br /> Institute if child
+                  Health and Human <br /> Development National of HEalth, Grant{" "}
+                  <br />
+                  #R21HD102822, R01HD102342
+                </p>
+                <p>
+                  NIMH: National Institute of
+                  <br /> Mental Health. Grant #R21MH12
+                </p>
+              </div>
+            </>
+          ) : null}
         </div>
       </div>
     </div>

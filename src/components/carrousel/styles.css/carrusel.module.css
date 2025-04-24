@@ -11,7 +11,7 @@
 
 .lineaPloma {
   width: 100%;
-  height: 1px;
+  height: 0.5px;
   background-color: #413e3e;
   margin: 0 auto;
 }
@@ -20,9 +20,11 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
   color: #545454;
+  width: 20%;
+  gap: 30px;
 }
 
 .title {
@@ -47,7 +49,18 @@
 }
 
 .imageMGH {
-  width: auto;
+  width: 70%;
+  height: 60px;
+}
+.imageBroad {
+  width: 60%;
+  height: 50px;
+  margin-bottom: 1.5%;
+  margin-top: -5%;
+}
+
+.imageTechnique {
+  width: 70%;
   height: 60px;
 }
 
@@ -80,7 +93,8 @@
 
 .InvolucradosimageContainer {
   display: flex;
-  gap: 120px;
+  gap: 70px;
+  justify-content: center;
   margin-top: -10px;
 }
 

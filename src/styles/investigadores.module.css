@@ -20,11 +20,15 @@
   background-color: #f2f2f2;
   margin-bottom: 10%;
   padding-top: 9%;
+  text-align: center;
 }
 
 .involucrados h2 {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  color: #1d2130;
+  font-size: 48px;
 }
 
 .involucradosTop {
@@ -39,6 +43,12 @@
   text-align: center;
   margin-left: 5%;
   margin-right: auto;
+}
+
+.involucradosTop h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #4192ef;
 }
 
 .colaboradores {

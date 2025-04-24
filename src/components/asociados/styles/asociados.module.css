@@ -64,3 +64,12 @@
 .textoContainer a:hover {
   text-decoration: underline;
 }
+
+.nihLow {
+  display: flex;
+  justify-content: left;
+  color: #525560;
+  font-weight: 200;
+  gap: 3rem;
+  font-size: small;
+}

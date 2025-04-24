@@ -5,16 +5,25 @@ import AsociadoComponente from "./AsociadoComponente";
 const AsociadosInstituciones = () => {
   return (
     <div className={styles.all}>
-      <h2>Instituciones Asociadas</h2>
+      <h2>Institución Financiera</h2>
       <div className={styles.Componentes}>
-        {/* <AsociadoComponente
+        <AsociadoComponente
+          src="/NIH.png"
+          bandera="usa"
+          titulo="National Institute of Health"
+          parrafo="Institución gubernamental de los Estados Unidos encargada de proveer el financiamiento para los proyectos de investigación asociados al estudio PrOMIS."
+          text_link="INMP"
+          link="https://www.gob.pe/inmp"
+        />
+
+        <AsociadoComponente
           src="/materno-perinatal.png"
           bandera="peru"
           titulo="Instituto Nacional Materno Perinatal (INMP)"
           parrafo="Especializado en la atención materno perinatal, brindando cuidado a mujeres de bajos ingresos. El INMP es clave en la realización del estudio PrOMIS desde 2012."
           text_link="INMP"
           link="https://www.gob.pe/inmp"
-        /> */}
+        />
         <AsociadoComponente
           src="/proesa-logo.svg"
           bandera="peru"
@@ -23,14 +32,14 @@ const AsociadosInstituciones = () => {
           text_link="AC PROESA"
           link=""
         />
-        {/* <AsociadoComponente
+        <AsociadoComponente
           src="/harvard-logo.png"
           bandera="usa"
           titulo="Universidad de Harvard"
           parrafo="Especializado en la atención materno perinatal, brindando cuidado a mujeres de bajos ingresos. El INMP es clave en la realización del estudio PrOMIS desde 2012."
           text_link="INMP"
           link=""
-        /> */}
+        />
         <AsociadoComponente
           src="/msh-logo.png"
           bandera="usa"
