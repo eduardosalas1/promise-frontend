@@ -7,14 +7,14 @@ const AsociadoComponente = ({
   bandera,
   titulo,
   parrafo,
-  text_link,
-  link,
-}: {
+}: // text_link,
+// link,
+{
   src: string;
   bandera: string;
   titulo: string;
   parrafo: string;
-  text_link: string;
+  text_link?: string;
   link?: string;
 }) => {
   return (
