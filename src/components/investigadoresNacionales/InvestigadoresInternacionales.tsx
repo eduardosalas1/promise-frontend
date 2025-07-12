@@ -17,7 +17,7 @@ const InvestigadoresInternacionales = () => {
           src="/bizu-gelaye-2.jpg"
           nombre="Bizu Gelaye"
           profesion="Profesor de Epidemiología y Psiquiatría"
-          texto_link="Harvard Bizu Gelaye"
+          texto_link="Perfil profesional"
           link="https://connects.catalyst.harvard.edu/Profiles/display/Person/104635"
           color="azul"
           posicion="arriba"

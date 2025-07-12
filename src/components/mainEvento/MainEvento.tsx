@@ -9,12 +9,13 @@ const MainEvento = () => {
         <div className={styles.mainContent}>
           <h3>* HALLAZGOS CONSTANTES</h3>
           <h2>
-            &quot;Apoyando a madres y<br /> niños, construyendo
-            <br /> su futuro.&quot;
+            &quot;Apoyando a<br /> madres y niños ,<br /> construyendo su
+            <br /> futuro.&quot;
           </h2>
           <p>
-            Conoce los estudios que están marcando <br />
-            una diferencia en la salud de mujeres y niños en Perú.
+            Conoce los estudios que están
+            <br /> marcando una diferencia en la
+            <br /> salud de mujeres y niños en Perú.
           </p>
           <button>Ver ultimo hallazgo +</button>
         </div>

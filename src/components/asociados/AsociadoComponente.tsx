@@ -43,7 +43,7 @@ const AsociadoComponente = ({
             />
           </div>
           <p>{parrafo}</p>
-          {src === "/NIH.png" ? null : <a href={link}>{text_link}</a>}
+          {/* {src === "/NIH.png" ? null : <a href={link}>{text_link}</a>} */}
 
           {src === "/NIH.png" ? (
             <>

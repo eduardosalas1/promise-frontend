@@ -6,7 +6,7 @@ import MainEvento from "@/components/mainEvento/MainEvento";
 
 const page = () => {
   return (
-    <div>
+    <div className={styles.publicaciones}>
       <div className={styles.mainPage}>
         <MainEvento />
       </div>
