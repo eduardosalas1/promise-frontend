@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./styles/cuadroInformativo.module.css";
-import Hallazgos from "../hallazgos/Hallazgos";
 
 const CuadroInformativo = () => {
   const [selectedOption, setSelectedOption] = useState(
@@ -25,7 +24,7 @@ const CuadroInformativo = () => {
                 ? styles.blueOptionActiva
                 : styles.blueOptionInactiva
             }
-            onClick={(e: any) => setSelectedOption("Salud Maternal y Estres")}
+            onClick={() => setSelectedOption("Salud Maternal y Estres")}
           >
             Salud Maternal y Estres
           </div>
@@ -35,9 +34,7 @@ const CuadroInformativo = () => {
                 ? styles.blueOptionActiva
                 : styles.blueOptionInactiva
             }
-            onClick={(e: any) =>
-              setSelectedOption("Desarrollo y salud Infantil")
-            }
+            onClick={() => setSelectedOption("Desarrollo y salud Infantil")}
           >
             Desarrollo y salud Infantil
           </div>
@@ -47,7 +44,7 @@ const CuadroInformativo = () => {
                 ? styles.blueOptionActiva
                 : styles.blueOptionInactiva
             }
-            onClick={(e: any) => setSelectedOption("Innovación Genómica")}
+            onClick={() => setSelectedOption("Innovación Genómica")}
           >
             Innovación genómica
           </div>
