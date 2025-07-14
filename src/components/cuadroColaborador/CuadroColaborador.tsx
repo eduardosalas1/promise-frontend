@@ -46,7 +46,9 @@ const CuadroColaborador = ({
           width={90}
           height={90}
           className={
-            posicion === "arriba"
+            nombre === "Bizu Gelaye"
+              ? styles.iconoBizu
+              : posicion === "arriba"
               ? styles.iconoCruzArriba
               : styles.iconoCruzAbajo
           }

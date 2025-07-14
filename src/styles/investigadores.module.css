@@ -16,7 +16,7 @@
 }
 
 .involucrados {
-  height: 120%;
+  height: 150%;
   background-color: #f2f2f2;
   margin-bottom: 10%;
   padding-top: 9%;
@@ -64,7 +64,7 @@
 
 .bottomInvestigadores {
   margin-top: 70px;
-  margin-bottom: -170px;
+  margin-bottom: -200px;
   display: flex;
   gap: 80px;
   justify-content: center;

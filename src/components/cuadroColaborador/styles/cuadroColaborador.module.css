@@ -70,3 +70,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.iconoBizu {
+  position: absolute;
+  top: -4px;
+  right: -55px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
