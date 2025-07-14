@@ -82,8 +82,8 @@
 }
 
 .imgContent {
-  width: 188px;
-  height: 129px;
+  width: 90%;
+  height: 80%;
 }
 
 /* Informacion */
@@ -102,4 +102,22 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.textoInformacion ul {
+  list-style: disc;
+  padding: 0;
+}
+
+/* Link */
+
+.link {
+  color: #4192ef;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.link:hover {
+  /* color: #2a6fba; */
+  text-decoration: underline;
 }
