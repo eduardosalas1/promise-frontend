@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import styles from "@/styles/actualidad.module.css";
 import Image from "next/image";
 import Unete from "@/components/unete/Unete";
 import EquipoSeguimiento from "@/components/equipoSeguimiento/EquipoSeguimiento";
 
 const Page = () => {
-  const [boton, setBoton] = useState<string>("Overview");
+  // const [boton, setBoton] = useState<string>("Overview");
   return (
     <div className={styles.all}>
       <div className={styles.mainBanner}>
