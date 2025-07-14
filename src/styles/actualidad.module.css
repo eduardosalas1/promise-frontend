@@ -52,9 +52,9 @@
 
 .bodyBanner {
   width: 100%;
-  height: 650px;
+  height: 100%;
   color: #1d2130;
-  padding: 20px 150px;
+  padding: 20px 130px;
 }
 
 .bodyBanner h2 {
@@ -67,22 +67,30 @@
 }
 
 .ComponentBodyBanner {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* justify-content: space-between; */
+  gap: 50px;
 }
 
 .rowBodyBanner {
   display: flex;
-  gap: 40px;
-  justify-content: center;
+  width: 88%;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
   text-align: left;
+}
+.iconosBodyBanner {
+  margin-left: 8%;
+  margin-bottom: 4%;
 }
 
 .buttonComponents {
   display: flex;
-  margin-top: 10px;
+  margin-top: 160px;
 }
 
 .classicButton {
@@ -109,4 +117,11 @@
   margin: 100px auto;
   width: 100%;
   border-bottom: 2px solid #e5e5e5;
+}
+
+.buttonComponents {
+  background-color: #4192ef;
+  color: white;
+  padding: 10px 20px;
+  border: none;
 }
