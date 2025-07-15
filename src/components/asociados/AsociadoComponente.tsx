@@ -7,6 +7,7 @@ const AsociadoComponente = ({
   bandera,
   titulo,
   parrafo,
+  text_link,
 }: // text_link,
 // link,
 {
@@ -31,7 +32,13 @@ const AsociadoComponente = ({
           />
         </div>
 
-        <div className={styles.textoContainer}>
+        <div
+          className={
+            text_link === "AC PROESA"
+              ? styles.textoContainerProesa
+              : styles.textoContainer
+          }
+        >
           <div className={styles.tituloContainer}>
             <h3>{titulo}</h3>
             <img

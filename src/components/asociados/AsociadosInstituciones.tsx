@@ -16,7 +16,7 @@ const AsociadosInstituciones = () => {
           link="https://www.gob.pe/inmp"
         />
       </div>
-      <h2>Instituciones Encagadas</h2>
+      <h2>Instituciones Encargadas</h2>
       <div className={styles.Componentes}>
         <AsociadoComponente
           src="/materno-perinatal.png"

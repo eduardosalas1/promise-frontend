@@ -22,7 +22,7 @@ const page = () => {
         <AsociadosInstituciones />
         {/* <AsociadosInstitucionesEncargadas /> */}
 
-        <div className={styles.bottomInvestigadores}></div>
+        {/* <div className={styles.bottomInvestigadores}></div> */}
       </div>
     </div>
   );

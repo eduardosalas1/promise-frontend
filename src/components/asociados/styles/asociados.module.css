@@ -53,6 +53,14 @@
   text-align: left;
 }
 
+.textoContainerProesa {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  text-align: left;
+  margin-left: -5px;
+}
+
 .textoContainer h3 {
   color: #1d2130;
   letter-spacing: 0;
@@ -73,4 +81,17 @@
   font-weight: 200;
   gap: 3rem;
   font-size: small;
+}
+
+.textoContainerProesa h3 {
+  color: #1d2130;
+  letter-spacing: 0;
+}
+
+.textoContainerProesa a {
+  color: #4192ef;
+}
+
+.textoContainerProesa a:hover {
+  text-decoration: underline;
 }
