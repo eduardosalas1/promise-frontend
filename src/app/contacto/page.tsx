@@ -13,17 +13,17 @@ const page = () => {
             Queremos <br />
             escucharte
           </h2>
-          <p>
+          {/* <p>
             Have any question in mind or want to <br /> enquire? Please feel
             free to contact us <br /> through the form or the following details.
-          </p>
+          </p> */}
         </div>
         <div className={styles.contactanosBlock}>
           <div>
             <h3>Hablemos!</h3>
             <div className={styles.contacto}>
-              <p>+234 09012346514</p>
-              <p>hello@proesa.com.pe</p>
+              <p>+51 986 660 619</p>
+              <p>administracion@acproesa.com</p>
             </div>
             <div className={styles.line}></div>
           </div>
@@ -35,16 +35,39 @@ const page = () => {
               maternidad
             </p>
             <p>/ Oficina A.C. Proesa</p>
+            <p>/ Jirón Camaná Nro. 872 Oficina 4 Perú - Lima - Lima - Lima</p>
           </div>
 
           <div className={styles.redes}>
-            <Image
-              src="/facebook-logo.svg"
-              alt="Logo de Facebook"
-              width={22}
-              height={22}
-            />
-            <Image
+            <div className={styles.redesIcon}>
+              <a
+                href="https://www.facebook.com/ac.proesa/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/facebook-logo.svg"
+                  alt="Logo de Facebook"
+                  width={22}
+                  height={22}
+                />
+              </a>
+            </div>
+            <div className={styles.webIcon}>
+              <a
+                href="https://acproesa.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/web_icon.svg"
+                  alt="Logo de Web"
+                  width={27}
+                  height={27}
+                />
+              </a>
+            </div>
+            {/* <Image
               src="/twitter-logo.svg"
               alt="Logo de Facebook"
               width={22}
@@ -55,7 +78,7 @@ const page = () => {
               alt="Logo de Facebook"
               width={22}
               height={22}
-            />
+            /> */}
           </div>
         </div>
       </div>

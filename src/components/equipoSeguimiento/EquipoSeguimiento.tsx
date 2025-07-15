@@ -34,7 +34,7 @@ const EquipoSeguimiento = () => {
           />
           <CuadroColaborador
             src="/silvia_tacuna.jpg"
-            nombre="Silvia Tacuna"
+            nombre="Silvia Tacuri"
             profesion="Licenciada en Trabajo Social"
             texto_link=""
             link=""

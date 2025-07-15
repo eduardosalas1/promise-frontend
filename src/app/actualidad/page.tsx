@@ -12,12 +12,13 @@ const Page = () => {
     <div className={styles.all}>
       <div className={styles.mainBanner}>
         <div className={styles.yellowMainBanner}>
-          <h3>+ AVANCES Y SEGUIMIENTOS</h3>
+          <h3>+ SOY PARTICIPANTE</h3>
           <div className={styles.textMainBanner}>
-            <h2>Actualidad PrOMIS </h2>
+            <h2>¿Qué es PrOMIS?</h2>
             <p>
-              When you donate, you are supporting effective care to children
-              with special needs—an investment in the leaders of tomorrow.
+              PrOMIS es un estudio de investigación que hace seguimiento de la
+              salud física y mental de la madre y de su hijo (a) desde la etapa
+              prenatal y pretende continuar hasta que tengan 15 años de edad.
             </p>
           </div>
         </div>
@@ -51,7 +52,7 @@ const Page = () => {
 
         <div className={styles.separatorBodyBanner}></div>
 
-        <div className={styles.rowBodyBanner}>
+        <div className={styles.row}>
           <div className={styles.ComponentBodyBanner}>
             <h2 className={styles.ComponentBodyBanner}>
               ¿Por qué PrOMIS hacen <br />
@@ -84,7 +85,7 @@ const Page = () => {
 
         <div className={styles.separatorBodyBanner}></div>
 
-        <div className={styles.rowBodyBanner}>
+        <div className={styles.row}>
           <div className={styles.ComponentBodyBanner}>
             <h2 className={styles.ComponentBodyBanner}>
               ¿Participar en
@@ -114,7 +115,7 @@ const Page = () => {
 
         <div className={styles.separatorBodyBanner}></div>
 
-        <div className={styles.rowBodyBanner}>
+        <div className={styles.row}>
           <div className={styles.ComponentBodyBanner}>
             <h2 className={styles.ComponentBodyBanner}>
               ¿Tengo algún beneficio <br />
@@ -149,7 +150,7 @@ const Page = () => {
 
         <div className={styles.separatorBodyBanner}></div>
 
-        <div className={styles.rowBodyBanner}>
+        <div className={styles.row}>
           <div className={styles.ComponentBodyBanner}>
             <h2 className={styles.ComponentBodyBanner}>
               ¿Cómo se protegen <br />

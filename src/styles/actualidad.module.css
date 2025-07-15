@@ -22,7 +22,7 @@
 
 .yellowMainBanner {
   width: 100%;
-  height: 350px;
+  height: 430px;
   background-color: #f2c94c;
   padding: 95px 0px 0px 205px;
 }
@@ -67,7 +67,7 @@
 }
 
 .ComponentBodyBanner {
-  width: 100%;
+  width: 110%;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
@@ -83,6 +83,17 @@
   justify-content: space-around;
   text-align: left;
 }
+
+.row {
+  display: flex;
+  width: 88%;
+  gap: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  text-align: left;
+}
+
 .iconosBodyBanner {
   margin-left: 8%;
   margin-bottom: 4%;
@@ -121,7 +132,8 @@
 
 .buttonComponents {
   background-color: #4192ef;
-  color: white;
-  padding: 10px 20px;
+  color: #fff;
+  padding: 12px 24px;
   border: none;
+  font-weight: bold;
 }
